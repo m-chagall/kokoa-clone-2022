@@ -1,0 +1,20 @@
+.screen-header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+    padding: var(--horizontal-space);
+    color: var(--orsetto_forest4);
+    position: fixed;
+    top:30px;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: var(--orsetto_ocean5); */
+}
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.screen-header__icons span {
+    margin-left: 30px;
+}
