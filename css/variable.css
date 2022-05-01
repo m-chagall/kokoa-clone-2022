@@ -1,6 +1,24 @@
 :root {
-    --yellow: #FAE100;
-    --orsoblue: #22577E;
-    --orsettoblue: #A2B9C9;
-    --orsettogray:#E6E6E6;
+    /* colors */
+    --orsetto_ocean1: rgb(183, 236, 234);
+    --orsetto_ocean2: rgb(151, 222, 231);
+    --orsetto_ocean3: rgb(120, 197, 220);
+    --orsetto_ocean4: rgb(216, 244, 239);
+    --orsetto_ocean5: rgb(240, 253, 250);
+    --orsetto_ocean6: rgb(138, 180, 248);
+    
+    --orsetto_aqua1: rgb(0, 247, 216);
+    --orsetto_aqua2: rgb(0, 209, 183);
+    --orsetto_aqua3: rgb(0, 183, 160);
+    --orsetto_aqua4: rgb(0, 154, 135);
+    --orsetto_aqua5: rgb(0, 114, 100);
+
+    --orsetto_forest0:rgb(230, 230, 230);
+    --orsetto_forest1:rgb(204, 210, 215);
+    --orsetto_forest2:rgb(109, 179, 191);
+    --orsetto_forest3:rgb(32, 87, 111);
+    --orsetto_forest4:rgb(24, 54, 66);
+
+    /* margins & paddings */
+    --horizontal-space: 25px;
 }
