@@ -4,15 +4,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 700;
+    font-weight: 500;
 }
 .welcome-header__title {
     margin-bottom: 20px;
     font-size: 25px;
 }
 .welcome-header__text {
-    width: 60%;
-    opacity: 0.5;
+    width: 80%;
+    color:var(--orsetto_forest1);
 }
 
 /*
@@ -44,11 +44,11 @@
     transition: border-color 0.3s ease-in-out;
 }
 #login-form input:focus {
-    border-color: var(--blue);
+    border-color: var(--orsetto_forest4);
 }
 #login-form input[type="submit"] {
     color: white;
-    background-color: var(--blue);
+    background-color: var(--orsetto_forest4);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
@@ -56,10 +56,9 @@
 #login-form a {
     text-align: center;
     text-decoration: none;
-    color:inherit;
-    opacity: 0.6;
+    color:var(--orsetto_forest4);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
 }
