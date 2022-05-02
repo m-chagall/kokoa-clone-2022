@@ -2,7 +2,7 @@
     text-align: center;
     display: block;
     background-color: var(--orsetto_forest0);
-    padding: 15px 0px;
+    padding: 10px 0px;
     margin-top: -10px;
     margin-bottom: 10px;
     font-size: 14px;
@@ -15,14 +15,78 @@
 .friends-screen {
     padding: 0px var(--horizontal-space);
 }
-.friends-screen__channel {
+.friends-screen__birthday {
     margin-top: 25px;
-    border-top:1px solid rgba(0,0,0,0.2);
+    border-top: var(--border);
     padding-top: 15px;
 }
-.friends-screen__channel-header {
+.friends-screen__birthday-header {
+    font-weight: 500;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     color: var(--orsetto_forest3);
+}
+.friends-screen__channel {
+    margin-top: 25px;
+    border-top: var(--border);
+    padding-top: 15px;
+}
+.friends-screen__channel-header {
+    font-weight: 500;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--orsetto_forest3);
+}
+.friends-screen__friends {
+    margin-top: 25px;
+    border-top: var(--border);
+    padding-top: 15px;
+}
+.friends-screen__friends-header {
+    font-weight: 500;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--orsetto_forest3);
+}
+
+.friends-screen__channel-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.friends-screen__channel-column {
+    background-color: var(--orsetto_forest0);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.friends-screen__channel-column img {
+    background-color: white;
+    padding: 5px;
+}
+.friends-screen__channel-column h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.friends-screen__channel-column h6 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.friends-screen__channel-column button {
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: var(--orsetto_forest1);
+    padding: 3px;
+    border: 0.5px hidden;
+    border-radius: 3px;
+}
+.friends-screen__channel-notice {
+    font-weight: 600;
+    font-size: 14px;
+    float: right;
 }
