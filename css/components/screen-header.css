@@ -12,9 +12,21 @@
     /* background-color: var(--orsetto_ocean5); */
 }
 .screen-header__title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
 }
 .screen-header__icons span {
     margin-left: 30px;
+}
+.screen-header__unread-features {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;    
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    position: absolute;
+    right: 20px;
+    top: 25px;
 }
