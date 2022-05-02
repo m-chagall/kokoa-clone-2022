@@ -1,12 +1,5 @@
 :root {
-    /* colors */
-    --orsetto_ocean1: rgb(183, 236, 234);
-    --orsetto_ocean2: rgb(151, 222, 231);
-    --orsetto_ocean3: rgb(120, 197, 220);
-    --orsetto_ocean4: rgb(216, 244, 239);
-    --orsetto_ocean5: rgb(240, 253, 250);
-    --orsetto_ocean6: rgb(138, 180, 248);
-    
+    /* colors */ 
     --orsetto_aqua1: rgb(0, 247, 216);
     --orsetto_aqua2: rgb(0, 209, 183);
     --orsetto_aqua3: rgb(0, 183, 160);
@@ -18,7 +11,9 @@
     --orsetto_forest2:rgb(109, 179, 191);
     --orsetto_forest3:rgb(32, 87, 111);
     --orsetto_forest4:rgb(24, 54, 66);
+    --orsetto_forest5:rgb(218, 120, 119);
 
     /* margins & paddings */
     --horizontal-space: 25px;
+    --border: 1px solid rgba(0,0,0,0.2);
 }
