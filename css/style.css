@@ -16,6 +16,8 @@ Keep everything that applies to all screens here in style.css
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/chat.css";
 
 body {
     margin-top: 120px;
@@ -24,7 +26,7 @@ body {
     /*
     font-family: "David Libre", Ubuntu, Roboto, serif;
     */
-    height: 1000vh;
+    height: 300vh;
 }
 .main-screen {
     padding:0px var(--horizontal-space);
