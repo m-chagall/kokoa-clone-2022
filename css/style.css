@@ -10,14 +10,17 @@ Keep everything that applies to all screens here in style.css
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/alt-screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/chat.css";
+@import "screens/more.css";
 
 body {
     margin-top: 120px;
