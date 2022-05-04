@@ -2,7 +2,7 @@
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.user-component, 
+.user-component, a,
 .user-component__column:first-child {
     display: flex;
     align-items: center;
@@ -23,9 +23,9 @@
     border-radius: 35%;
 }
 .user-component__avatar--xs {
-    width: 30px;
-    height: 30px;
-    border-radius: 35%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 }
 .user-component__title {
     font-weight: 600;
@@ -72,9 +72,11 @@ font-size: 18px;
     color:rgba(0,0,0,0.5);
     padding: 7.5px;
     border: 2px solid var(--orsetto_aqua5);
-    border-radius: 15px;    
+    border-radius: 15px;
+    letter-spacing: -1px;   
 }
 .profile-music > i {
+    margin-left: 2.5px;
     color: var(--orsetto_aqua5);
 }
 
