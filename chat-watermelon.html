@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Styles - KokoaTalk</title>
+    <script
+      src="https://kit.fontawesome.com/aea072e52f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar chat-screen">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>21:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg battery"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-screen">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Harry Styles</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, May 3, 2022</div>
+
+      <div class="message-row message-row--other">
+        <img src="img/fine-line.jpg" class="user-component__avatar--xs" />
+        <div class="message-row__other-content">
+          <span class="message-row__username">Harry Styles</span>
+          <div class="message-row__message-content">
+            <span class="message__bubble message__bubble--other">
+              Golden, golden, golden, as I open my eyes. Hold it, focus, hoping,
+              take me back to the light. I know you were way too bright for me,
+              I'm hopeless, broken so you wait for me in the sky. Browns my skin
+              just right, you're so golden. You're so golden, I'm out of my head
+              and I know that you're scared because hearts get broken. I don't
+              wanna be alone, I don't wanna be alone. When it ends, don't wanna
+              let you know. I don't wanna be alone but I, I can feel it take a
+              hold. I can feel you take control of who I am and all I've ever
+              known. Loving you's the antidote, golden. You're so golden, I
+              don't wanna be alone, you're so golden, you're so golden. I'm out
+              of my head and I know that you're scared because hearts get
+              broken.</span
+            >
+            <span class="message__time">20:19</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--user">
+        <div class="message-row__user-content">
+          <div class="message-row__message-content">
+            <span class="message__bubble message__bubble--user"
+              >I know that you're scared because I'm so open. You're so golden,
+              I don't wanna be alone, you're so golden. You're so golden, you're
+              so golden, I'm out of my head and I know that you're scared
+              because hearts get broken.
+            </span>
+            <span class="message__time message__time--user">21:43</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="message-input">
+      <div class="message-input__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="message-input__column">
+        <input type="text" placeholder="Write a message here" />
+        <i class="fa-regular fa-face-grin-wink fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>
+        Please adjust your screen. <br />
+        This page is designed for mobile phones :-)
+      </span>
+    </div>
+  </body>
+</html>
