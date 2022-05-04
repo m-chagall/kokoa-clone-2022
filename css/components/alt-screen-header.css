@@ -1,0 +1,42 @@
+.alt-header {
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        background-color: white;
+        z-index: 1;
+        padding: var(--horizontal-space);
+        color: var(--orsetto_forest4);
+        position: fixed;
+        top:30px;
+        width: 100%;
+        box-sizing: border-box;
+}
+.alt-header__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+.alt-header__column {
+    width: 33%;
+    /*
+    .alt-header__column { width: 33%; } 
+    .alt-header__column:nth-child(2) { text-align: center; } 
+    .alt-header__column:last-child { display: flex; justify-content:flex-end; }
+    This is some sort of CSS hack
+    to ensure all the columns have the same width, 
+    and the nth-child(2) element be completely in the center.
+    */
+}
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header__column span:last-child {
+    margin-left: 25px;
+}
