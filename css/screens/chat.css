@@ -1,0 +1,191 @@
+.chat-screen {
+    background-color: var(--orsetto_ocean5);
+}
+@keyframes fadeIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+.main-chat {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1.5s linear;
+}
+.chat__timestamp {
+    background-color: var(--orsetto_forest1);
+    color: white;
+    padding: 7.5px 15px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translateX(-15px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes fadeInRight {
+    from {
+        transform: translateX(15px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+.message-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.message-row--other {
+    justify-content: flex-start;
+    animation: fadeInLeft 1s linear;
+}
+.message-row--user {
+    justify-content: flex-end;
+    animation: fadeInRight 1s linear;
+}
+.message-row img {
+    margin-right: 15px;
+}
+.message-row__username {
+    font-weight: 600;
+    font-size: 14px;
+    display:block;
+    margin-bottom: 10px;
+}
+.message-row__message-content {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 7.5px;    
+}
+
+.message__bubble {
+    width: 75%;
+    color: var(--orsetto_forest4);
+    padding: 7.5px 12.5px;
+    border-radius: 15px;
+}
+.message__bubble--other {
+    background-color: white;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+.message__bubble--user {
+    background-color: var(--orsetto_ocean1);
+    border-top-right-radius: 0px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.message__time {    
+    font-size: 12px;
+}
+
+/*
+There are 2 ways to change the order of two elements.
+    1) using 'order' property - only appliable to flex children
+    2) using 'flex-direction' property
+*/
+/* 1)
+.message-row--user .message__bubble {
+    order: 1;
+}
+*/
+.message-row--user .message-row__message-content {
+    flex-direction: row-reverse;
+}
+
+.message-input {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    box-sizing: border-box; /* Since padding is getting in the way here. */
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.message-input__column {
+    position: relative;
+    color: var(--orsetto_aqua5);
+}
+.message-input__column:first-child {
+    width: 10%;
+}
+.message-input__column:last-child {
+    width: 90%;
+}
+
+.message-input__column input {
+    height: 30px;
+    width: 100%;
+    border: var(--border);
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+.message-input__column:last-child > i,
+.message-input__column:last-child button {
+    position: absolute;
+    right: 5px;
+    top: 7.5px;
+}
+.message-input__column:last-child > i {
+    right: 40px;
+    top: 15px;
+}
+.message-input__column:last-child button {
+    background-color: transparent;
+    color: var(--orsetto_aqua5);
+    border: none;
+}
+
+.message-input__column:focus,
+.message-input__column:active {
+    outline: none;
+}
+.message-input__column input::placeholder {
+    padding: 5px;
+}
+
+.message-input .message-input__column:first-child,
+.message-input .message-input__column i, 
+.message-input button
+ {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.message-input:focus-within .message-input__column:first-child,
+.message-input:focus-within .message-input__column i, 
+.message-input:focus-within button
+ {
+    opacity: 0;
+}
+.message-input input:focus {
+    width: 95vw;
+    transform: translateX(-12.5%) translateY(-50px);
+    /* cf. .message-input__column input { transform: ... } */
+}
+
+.message-input:focus-within {
+    transform: translateY(50px);
+}
