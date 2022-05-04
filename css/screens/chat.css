@@ -1,3 +1,6 @@
+.chats-screen {
+    padding: 0px var(--horizontal-space);
+}
 .chat-screen {
     background-color: var(--orsetto_ocean5);
 }
