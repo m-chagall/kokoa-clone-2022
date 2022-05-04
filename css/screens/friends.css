@@ -100,8 +100,8 @@
     }
 }
 .splash-screen {
-    background-color: var(--orsetto_ocean4);
-    color: var(--orsetto_ocean2);
+    background-color: var(--orsetto_forest5);
+    color: white;
     position:absolute;
     height: 100vh;
     width: 100vw;
