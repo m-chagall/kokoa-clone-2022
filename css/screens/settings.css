@@ -1,0 +1,44 @@
+.settings__section:first {
+    padding: 20px 0;
+}
+.settings__setting {
+    font-size: 18px;
+    color: var(--orsetto_forest4);
+    border-bottom: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.settings__setting:first-child {
+    padding-top: 30px;
+}
+.settings__setting:last-child {
+    padding-bottom: 30px;
+}
+.settings__setting:not(:last-child) {
+    border: none;
+}
+.last-element {
+    border: none;
+}
+.settings__setting-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settings__setting-column i {
+    color: var(--orsetto_aqua5);
+    font-size: 25px;
+    margin-right: 20px;
+}
+.settings__setting-column:last-child {
+    color: rgba(0,0,0,0.5);
+}
+/*
+.settings__setting-column {
+    flex-direction: column;
+    align-items: center;
+}
+*/
