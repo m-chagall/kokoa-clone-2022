@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Baudelaire - KokoaTalk</title>
+    <script
+      src="https://kit.fontawesome.com/aea072e52f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar chat-screen">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>21:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg battery"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-screen">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Charles Baudelaire</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, May 3, 2022</div>
+
+      <div class="message-row message-row--other">
+        <img
+          src="img/charles-baudelaire.jpg"
+          class="user-component__avatar--xs"
+        />
+        <div class="message-row__other-content">
+          <span class="message-row__username">Charles Baudelaire</span>
+          <div class="message-row__message-content">
+            <span class="message__bubble message__bubble--other">
+              Il faut être toujours ivre. Tout est là : c'est l'unique question.
+              Pour ne pas sentir l'horrible fardeau du Temps qui brise vos
+              épaules et vous penche vers la terre, il faut vous enivrer sans
+              trêve. Mais de quoi ? De vin, de poésie ou de vertu, à votre
+              guise. Mais enivrez-vous. Et si quelquefois, sur les marches d'un
+              palais, sur l'herbe verte d'un fossé, dans la solitude morne de
+              votre chambre, vous vous réveillez, l'ivresse déjà diminuée ou
+              disparue, demandez au vent, à la vague, à l'étoile, à l'oiseau, à
+              l'horloge, à tout ce qui fuit, à tout ce qui gémit, à tout ce qui
+              roule, à tout ce qui chante, à tout ce qui parle, demandez quelle
+              heure il est ; et le vent, la vague, l'étoile, l'oiseau,
+              l'horloge, vous répondront: “Il est l'heure de s'enivrer ! Pour
+              n'être pas les esclaves martyrisés du Temps, enivrez-vous;
+              enivrez-vous sans cesse ! De vin, de poésie ou de vertu, à votre
+              guise.</span
+            >
+            <span class="message__time">18:64</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--user">
+        <div class="message-row__user-content">
+          <div class="message-row__message-content">
+            <span class="message__bubble message__bubble--user">
+              Bisogna esser sempre ubriachi. Tutto sta in questo: è l’unico
+              problema. Per non sentire l’orribile fardello del Tempo che rompe
+              le vostre spalle e vi inclina verso la terra, bisogna che vi
+              ubriachiate senza tregua. Ma di che? Di vino, di poesia o di
+              virtù, a piacer vostro, ma ubriacatevi. E se qualche volta, sui
+              gradini d’un palazzo, sull’erba verde d’un fossato, nella mesta
+              solitudine della vostra camera vi risvegliate con l’ubriachezza
+              già diminuita o scomparsa, domandate al vento, all’onda, alla
+              stella, all’uccello, all’orologio, a tutto ciò che fugge, a tutto
+              ciò che geme, a tutto ciò che ruota, a tutto ciò che canta, a
+              tutto ciò che parla, domandate che ora è; e il vento, l’onda, la
+              stella, l’uccello, l’orologio, vi risponderanno: “È l’ora di
+              ubriacarsi! Per non esser gli schiavi martirizzati del Tempo,
+              ubriacatevi; ubriacatevi senza smettere! Di vino, di poesia o di
+              virtù, a piacer vostro.
+            </span>
+            <span class="message__time message__time--user">21:43</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="message-input">
+      <div class="message-input__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="message-input__column">
+        <input type="text" placeholder="Write a message here" />
+        <i class="fa-regular fa-face-grin-wink fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span
+        >Please adjust your screen. <br />
+        This page is designed for mobile phones :-)</span
+      >
+    </div>
+  </body>
+</html>
