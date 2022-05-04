@@ -1,5 +1,12 @@
 :root {
     /* colors */ 
+    --orsetto_ocean1: rgb(183, 236, 234);
+    --orsetto_ocean2: rgb(151, 222, 231);
+    --orsetto_ocean3: rgb(120, 197, 220);
+    --orsetto_ocean4: rgb(216, 244, 239);
+    --orsetto_ocean5: rgb(240, 253, 250);
+    --orsetto_ocean6: rgb(138, 180, 248);
+
     --orsetto_aqua1: rgb(0, 247, 216);
     --orsetto_aqua2: rgb(0, 209, 183);
     --orsetto_aqua3: rgb(0, 183, 160);
