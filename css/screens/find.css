@@ -93,3 +93,26 @@
 .find-open-chat__heart span {
     margin-left: 5px;
 }
+
+@keyframes heartbeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: var(--orsetto_forest5);
+        transform: scale(2);
+        /* If used without will-change: transform; 
+        and if n of scale(n) is too small, (smaller than 4 in my experience), 
+        it will shake with the entire div */
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+.find-open-chat__heart:hover i {
+    will-change: transform;
+    /* This helps the browser accelerate the animation with the graphic card of the computer. */
+    animation: heartbeat 0.5s linear infinite;
+}
