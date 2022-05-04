@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Leopardi - KokoaTalk</title>
+    <script
+      src="https://kit.fontawesome.com/aea072e52f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar chat-screen">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>21:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg battery"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-screen">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Giancomo Leopardi</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, May 3, 2022</div>
+
+      <div class="message-row message-row--other">
+        <img
+          src="img/giacomo-leopardi.jpg"
+          class="user-component__avatar--xs"
+        />
+        <div class="message-row__other-content">
+          <span class="message-row__username">Giancomo Leopardi</span>
+          <div class="message-row__message-content">
+            <span class="message__bubble message__bubble--other">
+              Sempre caro mi fu quest'ermo colle, e questa siepe, che da tanta
+              parte dell'ultimo orizzonte il guardo esclude. Ma sedendo e
+              mirando, interminati spazi di là da quella, e sovrumani silenzi, e
+              profondissima quïete io nel pensier mi fingo, ove per poco il cor
+              non si spaura. E come il vento odo stormir tra queste piante, io
+              quello infinito silenzio a questa voce vo comparando: e mi sovvien
+              l'eterno, e le morte stagioni, e la presente e viva, e il suon di
+              lei. Così tra questa immensità s'annega il pensier mio: e il
+              naufragar m'è dolce in questo mare.</span
+            >
+            <span class="message__time">18:25</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--user">
+        <div class="message-row__user-content">
+          <div class="message-row__message-content">
+            <span class="message__bubble message__bubble--user"
+              >Sempre caro mi è stato questo colle solitario e questa siepe, che
+              copre alla mia vista una buona parte dell'orizzonte più lontano.
+              Ma stando seduto e fissando lo sguardo, io immagino nella mia
+              mente spazi sterminati oltre la siepe, e silenzi sovrumani e
+              profondissima quiete, tanto che per poco il mio animo non
+              s'impaurisce. E non appena odo il vento stormire tra le fronde di
+              queste piante, paragono quell'infinito silenzio a questo
+              frusciare: e mi viene in mente l'eterno, le ere già trascorse, e
+              quella attuale e ancor viva, e il suo suono. Così il mio pensiero
+              sprofonda in quest'immensità: e il naufragare in questo mare è
+              dolce per me.</span
+            >
+            <span class="message__time message__time--user">21:43</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="message-input">
+      <div class="message-input__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="message-input__column">
+        <input type="text" placeholder="Write a message here" />
+        <i class="fa-regular fa-face-grin-wink fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>
+        Please adjust your screen. <br />
+        This page is designed for mobile phones :-)
+      </span>
+    </div>
+  </body>
+</html>
