@@ -2,7 +2,7 @@
     position:fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--orsetto_forest0);
+    background-color: var(--orsetto_space5);    
     padding: 20px 50px;
     box-sizing: border-box;
     border-top: var(--border);
@@ -13,7 +13,7 @@
 }
 .nav__link {
     position: relative;
-    color: var(--orsetto_forest4);
+    color: var(--orsetto_space1);
     display: flex;
     text-decoration: none;
 }
@@ -59,7 +59,7 @@
     animation:notificationUnreadMessages 1.5s ease-in-out infinite;
 }
 .nav__unread-features {
-    background-color: tomato;
+    background-color: var(--orsetto_space6);
     width: 5px;
     height: 5px;    
     border-radius: 50%;

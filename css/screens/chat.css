@@ -2,7 +2,7 @@
     padding: 0px var(--horizontal-space);
 }
 .chat-screen {
-    background-color: var(--orsetto_ocean5);
+    background-color: var(--orsetto_space1);
 }
 @keyframes fadeIn {
     from {
@@ -22,7 +22,7 @@
     animation: fadeIn 1.5s linear;
 }
 .chat__timestamp {
-    background-color: var(--orsetto_forest1);
+    background-color: var(--orsetto_space5);
     color: white;
     padding: 7.5px 15px;
     text-align: center;
@@ -81,7 +81,7 @@
 
 .message__bubble {
     width: 75%;
-    color: var(--orsetto_forest4);
+    color: var(--orsetto_space10);
     padding: 7.5px 12.5px;
     border-radius: 15px;
 }
@@ -92,7 +92,8 @@
     margin-left: 0px;
 }
 .message__bubble--user {
-    background-color: var(--orsetto_ocean1);
+    background-color: var(--orsetto_space5);
+    color: var(--orsetto_space1);
     border-top-right-radius: 0px;
     margin-right: 0px;
     margin-left: 5px;

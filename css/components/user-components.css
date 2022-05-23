@@ -30,14 +30,15 @@
 .user-component__title {
     font-weight: 600;
     font-size: 16px;
+    color: var(--orsetto_space10);
 }
 .user-component__title i {
     margin-left: 7.5px;
-    color:var(--orsetto_forest5);
+    color: var(--orsetto_space4);
 }
 .user-component__subtitle {
 margin-top:5px;
-color:rgba(0,0,0,0.5);
+color: var(--orsetto_space10o);
 font-size: 14px;
 }
 
@@ -60,24 +61,24 @@ font-size: 18px;
     font-weight: 600;
     color:rgba(0,0,0,0.5);
     padding: 7.5px;
-    border: 2px solid var(--orsetto_forest5);
+    border: 2px solid var(--orsetto_space5);
     border-radius: 15px;    
 }
 .gift-shop > i {
-    color: var(--orsetto_forest5);
+    color: var(--orsetto_space4);
 }
 .user-component__column .profile-music {
     font-size: 14px;
     font-weight: 600;
     color:rgba(0,0,0,0.5);
     padding: 7.5px;
-    border: 2px solid var(--orsetto_aqua5);
+    border: 2px solid var(--orsetto_space5);
     border-radius: 15px;
     letter-spacing: -1px;   
 }
 .profile-music > i {
     margin-left: 2.5px;
-    color: var(--orsetto_aqua5);
+    color: var(--orsetto_space4);
 }
 
 .user-component__column:last-child {

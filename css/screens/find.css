@@ -5,13 +5,13 @@
     font-weight: 500;
 }
 .find-recommended-friends__title {
-    color: var(--orsetto_forest3);
+    color: var(--orsetto_space5);
 }
 .find-recommended-friends span {
     margin:100px 0;
     display: block;
     text-align: center;
-    color: var(--orsetto_forest3);
+    color: var(--orsetto_space10);
     font-size: 18px;
 }
 
@@ -22,13 +22,13 @@
 .find-open-chat__header {    
     display: flex;
     justify-content: space-between;
-    color: var(--orsetto_forest3);
+    color: var(--orsetto_space5);
     margin-bottom: 5px;
     border-top: var(--border);
     padding-top: 25px;
 }
 .find-open-chat__header span {
-    color: var(--orsetto_forest2);
+    color: var(--orsetto_space4);
 }
 .find-open-chat-component {
     display: flex;
@@ -43,7 +43,7 @@
 }
 .find-open-chat__hashtags {
     text-transform: uppercase;
-    color:rgba(0,0,0,0.5);
+    color: var(--orsetto_space10o);
 }
 .find-open-chat__members {
     display: flex;
@@ -58,17 +58,17 @@
 }
 .find-open-chat__number-of-members {
     font-size: 14px;
-    color: var(--orsetto_forest2);
+    color: var(--orsetto_space4);
 }
 .find-open-chat__status {
     font-size: 14px;
-    color: var(--orsetto_aqua5);
+    color: var(--orsetto_space3);
 }
 .find-open-chat__members .divider {
     width: 2px;
     height:15px;
     margin: 0 5px;
-    background-color: var(--orsetto_forest2);
+    background-color: var(--orsetto_space10o);
 }
 .find-open-chat__profile {
     position: relative;

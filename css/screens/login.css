@@ -9,10 +9,11 @@
 .welcome-header__title {
     margin-bottom: 20px;
     font-size: 25px;
+    color: var(--orsetto_space10);
 }
 .welcome-header__text {
     width: 80%;
-    color:var(--orsetto_forest1);
+    color:var(--orsetto_space10o);
 }
 
 /*
@@ -40,16 +41,16 @@
 }
 #login-form input:not([type="submit"]) {
     margin-top: 0;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid var(--orsetto_space10o);
     transition: border-color 0.3s ease-in-out;
 }
 #login-form input:focus {
-    border-color: var(--orsetto_forest4);
+    border-color: var(--orsetto_space5);
 }
 #login-form input[type="submit"] {
     width: 100%;
     color: white;
-    background-color: var(--orsetto_forest4);
+    background-color: var(--orsetto_space5);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
@@ -57,7 +58,7 @@
 #login-form a {
     text-align: center;
     text-decoration: none;
-    color:var(--orsetto_forest4);
+    color:var(--orsetto_space10);
     display: flex;
     flex-direction: column;
     align-items: center;

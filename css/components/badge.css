@@ -1,5 +1,5 @@
 .badge {
-    background-color: tomato;
+    background-color: var(--orsetto_space6);
     width: 25px;
     height: 25px;    
     border-radius: 50%;

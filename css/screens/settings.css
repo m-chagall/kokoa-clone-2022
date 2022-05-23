@@ -3,7 +3,7 @@
 }
 .settings__setting {
     font-size: 18px;
-    color: var(--orsetto_forest4);
+    color: var(--orsetto_space9);
     border-bottom: var(--border);
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
     justify-content: center;
 }
 .settings__setting-column i {
-    color: var(--orsetto_aqua5);
+    color: var(--orsetto_space5);
     font-size: 25px;
     margin-right: 20px;
 }

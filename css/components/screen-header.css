@@ -4,7 +4,8 @@
     align-items:center;
     background-color: white;
     padding: var(--horizontal-space);
-    color: var(--orsetto_forest4);
+    background-color: var(--orsetto_space5);    
+    color: var(--orsetto_space1);
     position: fixed;
     top:30px;
     width: 100%;
@@ -35,7 +36,7 @@
 }
 
 .screen-header__unread-features {
-    background-color: tomato;
+    background-color: var(--orsetto_space6);
     width: 5px;
     height: 5px;    
     border-radius: 50%;

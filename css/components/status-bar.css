@@ -1,6 +1,7 @@
 .status-bar {
     position:fixed;
-    background-color: white;
+    background-color: var(--orsetto_space1);
+    color: var(--orsetto_space10);
     z-index: 2;
     top: 0;
     width: 100%;

@@ -1,24 +1,18 @@
 :root {
     /* colors */ 
-    --orsetto_ocean1: rgb(183, 236, 234);
-    --orsetto_ocean2: rgb(151, 222, 231);
-    --orsetto_ocean3: rgb(120, 197, 220);
-    --orsetto_ocean4: rgb(216, 244, 239);
-    --orsetto_ocean5: rgb(240, 253, 250);
-    --orsetto_ocean6: rgb(138, 180, 248);
-
-    --orsetto_aqua1: rgb(0, 247, 216);
-    --orsetto_aqua2: rgb(0, 209, 183);
-    --orsetto_aqua3: rgb(0, 183, 160);
-    --orsetto_aqua4: rgb(0, 154, 135);
-    --orsetto_aqua5: rgb(0, 114, 100);
-
-    --orsetto_forest0:rgb(230, 230, 230);
-    --orsetto_forest1:rgb(204, 210, 215);
-    --orsetto_forest2:rgb(109, 179, 191);
-    --orsetto_forest3:rgb(32, 87, 111);
-    --orsetto_forest4:rgb(24, 54, 66);
-    --orsetto_forest5:rgb(218, 120, 119);
+    --orsetto_space0: rgb(133, 241, 254);
+    --orsetto_space1: rgb(239, 240, 235);
+    --orsetto_space2: rgb(245, 213, 224);
+    --orsetto_space3: rgb(200, 116, 178);
+    --orsetto_space4: rgb(122, 125, 181);
+    --orsetto_space5: rgb(70, 99, 190);
+    --orsetto_space6: rgb(33, 174, 228);
+    --orsetto_space7: rgb(108, 79, 133);
+    --orsetto_space8: rgb(67, 13, 75);
+    --orsetto_space9: rgb(22, 67, 114);
+    --orsetto_space10: rgb(14, 42, 71);
+    --orsetto_space10o: rgba(14, 42, 71, 0.5);
+    --orsetto_space11: rgb(1, 13, 29);    
 
     /* margins & paddings */
     --horizontal-space: 25px;

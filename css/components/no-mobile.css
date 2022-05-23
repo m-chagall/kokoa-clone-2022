@@ -1,9 +1,9 @@
 #no-mobile {
     position: absolute;
     z-index: 99;
-    height: 100vh;
+    height: 250vh;
     width: 100vw;
-    background-color: var(--orsetto_aqua5);
+    background: radial-gradient(var(--orsetto_space5), var(--orsetto_space10));
     color: white;
     display: flex;
     justify-content: center;

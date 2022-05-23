@@ -2,10 +2,10 @@
         display:flex;
         justify-content: space-between;
         align-items:center;
-        background-color: white;
+        background-color: var(--orsetto_space5);
+        color: var(--orsetto_space1);
         z-index: 1;
         padding: var(--horizontal-space);
-        color: var(--orsetto_forest4);
         position: fixed;
         top:30px;
         width: 100%;
