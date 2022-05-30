@@ -6,12 +6,12 @@
 
 # Why KokoaTalk Clone Coding?
 
-▪ "Everything starts from a dot." - A quote from Wassily Kandinsky that inspired me to start clone coding.
+▪ "Everything starts from a dot." - A quote from Wassily Kandinsky that inspired me to start clone coding.\
 ▪ This project is based on one of the beginner level courses on Nomadcoders, focusing on HTML/CSS/GitHub.
 
 # Useful Information
 
-▪ Nomadcoders https://nomadcoders.co
-▪ Kakao Corporation website https://kakaocorp.com
-▪ Download KakaoTalk on Google Play https://play.google.com/store/apps/details?id=com.kakao.talk&hl=en&gl=US
-▪ Download KakaoTalk on App Store https://apps.apple.com/us/app/kakaotalk/id362057947
+▪ Nomadcoders https://nomadcoders.co \
+▪ Kakao Corporation website https://kakaocorp.com \
+▪ Download KakaoTalk on Google Play https://play.google.com/store/apps/details?id=com.kakao.talk&hl=en&gl=US \
+▪ Download KakaoTalk on App Store https://apps.apple.com/us/app/kakaotalk/id362057947 \
